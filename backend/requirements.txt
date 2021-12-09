@@ -5,6 +5,7 @@ uvicorn
 #for databases
 SQLAlchemy
 psycopg2
+databases # async
 
 
 #for env files
@@ -22,3 +23,4 @@ passlib[bcrypt]
 #Testing
 pytest
 requests
+pytest-cov

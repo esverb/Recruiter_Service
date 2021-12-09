@@ -21,6 +21,6 @@ app = start_application()
 
 
 @app.get("/")
-async def hello_api():
+def hello_api():
     return {"detail":"hello world!"}
 
